@@ -40,11 +40,8 @@
         </div>
       </div>
       <div class="hero-photo-wrap">
-        <!-- PROFILE PHOTO: add your photo as photos/profile.jpg in the repo -->
         <img src="photos/profile.jpg" alt="Mahsa Payami" class="hero-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="hero-photo-placeholder" style="display:none">
-          <span>MP</span>
-        </div>
+        <div class="hero-photo-placeholder" style="display:none"><span>MP</span></div>
       </div>
     </div>
   </section>
@@ -54,22 +51,16 @@
     <section id="about" class="section-about reveal">
       <div class="about-grid">
         <div class="about-left">
-          <div class="section-label">About</div>
+          <p class="section-label">About</p>
           <h2 class="section-heading">Building at the edge of ML and science</h2>
         </div>
         <div class="about-right">
           <p>I build machine learning systems that sit at the intersection of deep learning and scientific computing — from training neural networks on terabyte-scale atmospheric datasets to deploying LLM-powered tools for research. My work focuses on making complex models fast, interpretable, and useful in practice.</p>
           <p>I hold a <strong>PhD in Atmospheric Sciences</strong> from the University of Houston (Presidential Fellow) and am currently pursuing an <strong>MS in Computer Science</strong> (ML specialization) at Georgia Tech. I'm open to data science and ML engineering roles.</p>
           <div class="skills-row">
-            <span class="skill">PyTorch</span>
-            <span class="skill">TensorFlow</span>
-            <span class="skill">Python</span>
-            <span class="skill">SQL</span>
-            <span class="skill">LlamaIndex</span>
-            <span class="skill">LangGraph</span>
-            <span class="skill">SHAP</span>
-            <span class="skill">W&B</span>
-            <span class="skill">Pandas</span>
+            <span class="skill">PyTorch</span><span class="skill">TensorFlow</span><span class="skill">Python</span>
+            <span class="skill">SQL</span><span class="skill">LlamaIndex</span><span class="skill">LangGraph</span>
+            <span class="skill">SHAP</span><span class="skill">W&B</span><span class="skill">Pandas</span>
             <span class="skill">Scikit-learn</span>
           </div>
         </div>
@@ -78,12 +69,10 @@
 
     <section id="projects" class="section-projects">
       <div class="section-header reveal">
-        <div class="section-label">Projects</div>
+        <p class="section-label">Projects</p>
         <h2 class="section-heading">Selected work</h2>
       </div>
-
       <div class="projects-grid">
-
         <div class="project-card featured reveal">
           <div class="project-top">
             <span class="project-badge">New · LLM</span>
@@ -91,13 +80,10 @@
             <p>Retrieval-augmented generation system for querying atmospheric science research papers in natural language. Implements page-level chunking with BGE embeddings, ChromaDB vector store, and a Streamlit chat interface with source-cited answers.</p>
           </div>
           <div class="project-bottom">
-            <div class="project-tags">
-              <span>LlamaIndex</span><span>ChromaDB</span><span>HuggingFace</span><span>Groq</span><span>Streamlit</span>
-            </div>
+            <div class="project-tags"><span>LlamaIndex</span><span>ChromaDB</span><span>HuggingFace</span><span>Groq</span><span>Streamlit</span></div>
             <a href="https://github.com/mahsapym/rag-climate-assistant" target="_blank" class="card-link">GitHub →</a>
           </div>
         </div>
-
         <div class="project-card reveal">
           <div class="project-top">
             <span class="project-badge nasa">NASA-funded</span>
@@ -105,9 +91,7 @@
             <p>1D/2D CNN and U-Net models to emulate the CMAQ air quality simulation model, replacing numerical solvers with a deep learning inference pipeline. Applied SHAP to identify NOx and solar radiation as top prediction drivers.</p>
           </div>
           <div class="project-bottom">
-            <div class="project-tags">
-              <span>PyTorch</span><span>CNN</span><span>U-Net</span><span>SHAP</span>
-            </div>
+            <div class="project-tags"><span>PyTorch</span><span>CNN</span><span>U-Net</span><span>SHAP</span></div>
             <div class="card-links">
               <a href="https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0055.1.xml" target="_blank" class="card-link">Paper 1 →</a>
               <a href="https://www.sciencedirect.com/science/article/pii/S0048969725021072" target="_blank" class="card-link">Paper 2 →</a>
@@ -115,7 +99,6 @@
             </div>
           </div>
         </div>
-
         <div class="project-card reveal">
           <div class="project-top">
             <span class="project-badge crc">CRC-funded</span>
@@ -123,13 +106,10 @@
             <p>Well-to-wheel analysis for NYC, LA, Chicago, and Houston using GREET-MOVES integration. Multi-source data pipelines across transportation and energy datasets. Projected GHG and air quality impacts across 2035 EV scenarios.</p>
           </div>
           <div class="project-bottom">
-            <div class="project-tags">
-              <span>Python</span><span>SQL</span><span>GREET</span><span>MOVES</span>
-            </div>
+            <div class="project-tags"><span>Python</span><span>SQL</span><span>GREET</span><span>MOVES</span></div>
             <a href="https://www.sciencedirect.com/science/article/pii/S0269749125004348" target="_blank" class="card-link">Paper →</a>
           </div>
         </div>
-
         <div class="project-card reveal">
           <div class="project-top">
             <span class="project-badge gt">Georgia Tech</span>
@@ -137,22 +117,17 @@
             <p>Conditional diffusion model (DDPM/DDIM) for pixel-level contrail segmentation in GOES-16 infrared sequences. Multi-branch U-Net with RRDB encoders, Hough priors, and Fourier fusion. PR-AUC 0.345, skeleton recall 0.755 on 20,500+ samples.</p>
           </div>
           <div class="project-bottom">
-            <div class="project-tags">
-              <span>DDPM</span><span>U-Net</span><span>RRDB</span><span>GOES-16</span>
-            </div>
+            <div class="project-tags"><span>DDPM</span><span>U-Net</span><span>RRDB</span><span>GOES-16</span></div>
             <a href="https://github.gatech.edu/schowdhury320/skynet" target="_blank" class="card-link">GitHub →</a>
           </div>
         </div>
-
       </div>
     </section>
 
     <section id="publications" class="section-pubs reveal">
-      <div class="section-label">Publications</div>
+      <p class="section-label">Publications</p>
       <h2 class="section-heading">Research</h2>
-
       <div class="pubs-list">
-
         <div class="pub-item">
           <span class="pub-year">2026</span>
           <div class="pub-content">
@@ -160,7 +135,6 @@
             <p class="pub-meta">Nelson D., Choi Y., <strong>Payami M.</strong>, et al. · <em>Science of the Total Environment</em></p>
           </div>
         </div>
-
         <div class="pub-item">
           <span class="pub-year">2025</span>
           <div class="pub-content">
@@ -168,7 +142,6 @@
             <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Kayastha S.G., Park J. · <em>Science of the Total Environment</em></p>
           </div>
         </div>
-
         <div class="pub-item">
           <span class="pub-year">2025</span>
           <div class="pub-content">
@@ -176,7 +149,6 @@
             <p class="pub-meta"><strong>Payami M.</strong>, Mousavinezhad S., Choi Y., Khorshidian N. · <em>Environmental Pollution</em></p>
           </div>
         </div>
-
         <div class="pub-item">
           <span class="pub-year">2024</span>
           <div class="pub-content">
@@ -184,7 +156,6 @@
             <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Salman A.K., et al. · <em>Artificial Intelligence for the Earth Systems</em></p>
           </div>
         </div>
-
         <div class="pub-item">
           <span class="pub-year">2024</span>
           <div class="pub-content">
@@ -192,80 +163,44 @@
             <p class="pub-meta">Salman A.K., Choi Y., Park J., <strong>Payami M.</strong>, et al. · <em>Atmospheric Environment</em></p>
           </div>
         </div>
-
       </div>
     </section>
 
     <section id="education" class="section-edu reveal">
       <div class="edu-awards-grid">
-
         <div>
-          <div class="section-label">Education</div>
+          <p class="section-label">Education</p>
           <h2 class="section-heading">Background</h2>
           <div class="edu-list">
             <div class="edu-item">
               <div class="edu-dot"></div>
-              <div>
-                <p class="edu-school">Georgia Institute of Technology</p>
-                <p class="edu-degree">MS, Computer Science — ML specialization</p>
-                <p class="edu-year">2026 (expected)</p>
-              </div>
+              <div><p class="edu-school">Georgia Institute of Technology</p><p class="edu-degree">MS, Computer Science — ML specialization</p><p class="edu-year">2026 (expected)</p></div>
             </div>
             <div class="edu-item">
               <div class="edu-dot"></div>
-              <div>
-                <p class="edu-school">University of Houston</p>
-                <p class="edu-degree">PhD, Atmospheric Sciences</p>
-                <p class="edu-note">Presidential Fellow</p>
-                <p class="edu-year">2025</p>
-              </div>
+              <div><p class="edu-school">University of Houston</p><p class="edu-degree">PhD, Atmospheric Sciences</p><p class="edu-note">Presidential Fellow</p><p class="edu-year">2025</p></div>
             </div>
             <div class="edu-item">
               <div class="edu-dot"></div>
-              <div>
-                <p class="edu-school">Amirkabir University of Technology</p>
-                <p class="edu-degree">MS, Environmental Engineering</p>
-                <p class="edu-year">2019</p>
-              </div>
+              <div><p class="edu-school">Amirkabir University of Technology</p><p class="edu-degree">MS, Environmental Engineering</p><p class="edu-year">2019</p></div>
             </div>
             <div class="edu-item last">
               <div class="edu-dot"></div>
-              <div>
-                <p class="edu-school">Sharif University of Technology</p>
-                <p class="edu-degree">BS, Civil Engineering</p>
-                <p class="edu-year">2016</p>
-              </div>
+              <div><p class="edu-school">Sharif University of Technology</p><p class="edu-degree">BS, Civil Engineering</p><p class="edu-year">2016</p></div>
             </div>
           </div>
         </div>
-
         <div>
-          <div class="section-label">Awards</div>
+          <p class="section-label">Awards</p>
           <h2 class="section-heading">Recognition</h2>
           <ul class="awards-list">
-            <li>
-              <span class="award-year">2024 &amp; 2025</span>
-              <span>Outstanding Graduate Researcher in Atmospheric Sciences, University of Houston</span>
-            </li>
-            <li>
-              <span class="award-year">2024</span>
-              <span>Natural Science &amp; Mathematics Graduate Student Conference Travel Award, UH</span>
-            </li>
-            <li>
-              <span class="award-year">2024</span>
-              <span>Best Visiting Team, Rice University Datathon — Chevron Challenge</span>
-            </li>
-            <li>
-              <span class="award-year">2023</span>
-              <span>2nd Place, Outstanding Poster, 25th Sheriff Lecture, Houston Geology Society</span>
-            </li>
-            <li>
-              <span class="award-year">2023</span>
-              <span>3rd Place, Outstanding Poster, UH Student Research Conference</span>
-            </li>
+            <li><span class="award-year">2024 &amp; 2025</span><span>Outstanding Graduate Researcher in Atmospheric Sciences, University of Houston</span></li>
+            <li><span class="award-year">2024</span><span>Natural Science &amp; Mathematics Graduate Student Conference Travel Award, UH</span></li>
+            <li><span class="award-year">2024</span><span>Best Visiting Team, Rice University Datathon — Chevron Challenge</span></li>
+            <li><span class="award-year">2023</span><span>2nd Place, Outstanding Poster, 25th Sheriff Lecture, Houston Geology Society</span></li>
+            <li><span class="award-year">2023</span><span>3rd Place, Outstanding Poster, UH Student Research Conference</span></li>
           </ul>
         </div>
-
       </div>
     </section>
 
@@ -273,38 +208,21 @@
 
   <section class="section-gallery">
     <div class="gallery-inner reveal">
-      <div class="section-label">Life</div>
+      <p class="section-label">Life</p>
       <h2 class="section-heading">Beyond the code</h2>
       <div class="gallery-grid">
-
-        <!-- PHOTO 1: replace photos/graduation.jpg with your file -->
-        <div class="gallery-item">
-          <img src="photos/graduation.jpg" alt="Graduation" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div class="gallery-placeholder" style="display:none"><span>🎓</span><p>Add photos/graduation.jpg</p></div>
-          <p class="gallery-caption">PhD graduation, University of Houston · 2025</p>
+        <div class="gallery-item" onclick="openPhoto(this)">
+          <img src="photos/graduation.jpg" alt="With my advisor Dr. Yunsoo Choi" />
+          <p class="gallery-caption">With my advisor Dr. Yunsoo Choi · PhD graduation 2025</p>
         </div>
-
-        <!-- PHOTO 2: replace photos/graduation3.jpg with your file -->
-        <div class="gallery-item">
-          <img src="photos/life.jpg" alt="Conference" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div class="gallery-placeholder" style="display:none"><span>🎤</span><p>Add photos/graduation3.jpg</p></div>
-          <p class="gallery-caption">Hooding ceremony with my advisor, Dr. Yunsoo Choi</p>
+        <div class="gallery-item" onclick="openPhoto(this)">
+          <img src="photos/graduation2.jpg" alt="Hooding ceremony" />
+          <p class="gallery-caption">Hooding ceremony · University of Houston</p>
         </div>
-
-        <!-- PHOTO 3: replace photos/graduation2.jpg with your file -->
-        <div class="gallery-item">
-          <img src="photos/graduation2.jpg" alt="Lab" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div class="gallery-placeholder" style="display:none"><span>🔬</span><p>Add photos/graduation2.jpg</p></div>
-          <p class="gallery-caption">Commencement ceremony</p>
+        <div class="gallery-item" onclick="openPhoto(this)">
+          <img src="photos/graduation3.jpg" alt="Commencement ceremony" />
+          <p class="gallery-caption">Commencement ceremony · 2025</p>
         </div>
-
-        <!-- PHOTO 4: replace photos/life.jpg with your file -->
-        <div class="gallery-item">
-          <img src="photos/life.jpg" alt="Personal" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div class="gallery-placeholder" style="display:none"><span>🌿</span><p>Add photos/life.jpg</p></div>
-          <p class="gallery-caption">Outside the lab 🌿</p>
-        </div>
-
       </div>
     </div>
   </section>
@@ -322,16 +240,26 @@
     </div>
   </footer>
 
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption"></p>
+  </div>
+
   <script>
     const nav = document.getElementById('nav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 40);
-    });
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.1 });
     reveals.forEach(el => observer.observe(el));
+    function openPhoto(item) {
+      document.getElementById('lightbox-img').src = item.querySelector('img').src;
+      document.getElementById('lightbox-caption').textContent = item.querySelector('.gallery-caption').textContent;
+      document.getElementById('lightbox').classList.add('active');
+    }
+    function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
   </script>
 
 </body>
