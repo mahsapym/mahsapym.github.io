@@ -10,15 +10,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css" />
 <style>
-  /* Fix profile photo fade — ensure no mask or gradient clips the image */
   .hero-photo-wrap {
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
+    background: white !important;
+    isolation: isolate;
   }
   .hero-photo {
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
-    object-fit: cover;
+    opacity: 1 !important;
+    mix-blend-mode: normal !important;
   }
 </style>
 </head>
@@ -84,13 +82,13 @@
 
       <div class="project-card featured reveal">
         <div class="project-top">
-          <span class="project-badge">New · LLM</span>
+          <span class="project-badge">Personal Project · LLM</span>
           <h3>RAG Research Assistant</h3>
           <p>Retrieval-augmented generation system for querying atmospheric science research papers in natural language. Implements page-level chunking with BGE embeddings, ChromaDB vector store, and a Streamlit chat interface with source-cited answers.</p>
         </div>
         <div class="project-bottom">
           <div class="project-tags"><span>LlamaIndex</span><span>ChromaDB</span><span>HuggingFace</span><span>Groq</span><span>Streamlit</span></div>
-          <a href="https://github.com/mahsapym/rag-climate-assistant" target="_blank" class="card-link">GitHub →</a>
+          <a href="https://github.com/mahsapym/rag-climate-assistant" target="_blank" class="card-link">GitHub &rarr;</a>
         </div>
       </div>
 
@@ -103,9 +101,9 @@
         <div class="project-bottom">
           <div class="project-tags"><span>PyTorch</span><span>CNN</span><span>U-Net</span><span>SHAP</span></div>
           <div class="card-links">
-            <a href="https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0055.1.xml" target="_blank" class="card-link">Paper 1 →</a>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0048969725021072" target="_blank" class="card-link">Paper 2 →</a>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231023006180" target="_blank" class="card-link">Paper 3 →</a>
+            <a href="https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0055.1.xml" target="_blank" class="card-link">Paper 1 &rarr;</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0048969725021072" target="_blank" class="card-link">Paper 2 &rarr;</a>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231023006180" target="_blank" class="card-link">Paper 3 &rarr;</a>
           </div>
         </div>
       </div>
@@ -118,7 +116,7 @@
         </div>
         <div class="project-bottom">
           <div class="project-tags"><span>Python</span><span>SQL</span><span>GREET</span><span>MOVES</span></div>
-          <a href="https://www.sciencedirect.com/science/article/pii/S0269749125004348" target="_blank" class="card-link">Paper →</a>
+          <a href="https://www.sciencedirect.com/science/article/pii/S0269749125004348" target="_blank" class="card-link">Paper &rarr;</a>
         </div>
       </div>
 
@@ -130,24 +128,9 @@
         </div>
         <div class="project-bottom">
           <div class="project-tags"><span>DDPM</span><span>U-Net</span><span>RRDB</span><span>GOES-16</span></div>
-          <a href="https://github.gatech.edu/schowdhury320/skynet" target="_blank" class="card-link">GitHub →</a>
+          <a href="https://github.gatech.edu/schowdhury320/skynet" target="_blank" class="card-link">GitHub &rarr;</a>
         </div>
       </div>
-
-      <!-- ✏️ ADD NEW PROJECTS BELOW — copy a project-card block and fill in details -->
-      <!--
-      <div class="project-card reveal">
-        <div class="project-top">
-          <span class="project-badge">Label here</span>
-          <h3>Project Title</h3>
-          <p>Description of the project.</p>
-        </div>
-        <div class="project-bottom">
-          <div class="project-tags"><span>Tag1</span><span>Tag2</span></div>
-          <a href="https://..." target="_blank" class="card-link">Link →</a>
-        </div>
-      </div>
-      -->
 
     </div>
   </section>
@@ -160,15 +143,15 @@
         <span class="pub-year">2026</span>
         <div class="pub-content">
           <p class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0048969725021072" target="_blank">Advances in air quality modeling through artificial intelligence, machine learning, and deep learning: A comprehensive review</a></p>
-          <p class="pub-meta">Nelson D., Choi Y., <strong>Payami M.</strong>, et al. · <em>Science of the Total Environment</em></p>
+          <p class="pub-meta">Nelson D., Choi Y., <strong>Payami M.</strong>, et al. &middot; <em>Science of the Total Environment</em></p>
         </div>
       </div>
 
       <div class="pub-item">
         <span class="pub-year">2025</span>
         <div class="pub-content">
-          <p class="pub-title">Emulating CMAQ Using Deep Learning: A Comparative Study on Simulating Surface NO₂, O₃, and PM₂.₅ Over the CONUS</p>
-          <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Kayastha S.G., Park J. · <em>Science of the Total Environment</em></p>
+          <p class="pub-title">Emulating CMAQ Using Deep Learning: A Comparative Study on Simulating Surface NO&#8322;, O&#8323;, and PM&#8322;.&#8325; Over the CONUS</p>
+          <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Kayastha S.G., Park J. &middot; <em>Science of the Total Environment</em></p>
         </div>
       </div>
 
@@ -176,23 +159,23 @@
         <span class="pub-year">2025</span>
         <div class="pub-content">
           <p class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0269749125004348" target="_blank">Potential Impact of Vehicle Electrification on Greenhouse Gases and Criteria Pollutants in 2035: A Scenario-Based Well-to-Wheel Analysis</a></p>
-          <p class="pub-meta"><strong>Payami M.</strong>, Mousavinezhad S., Choi Y., Khorshidian N. · <em>Environmental Pollution</em></p>
+          <p class="pub-meta"><strong>Payami M.</strong>, Mousavinezhad S., Choi Y., Khorshidian N. &middot; <em>Environmental Pollution</em></p>
         </div>
       </div>
 
       <div class="pub-item">
         <span class="pub-year">2024</span>
         <div class="pub-content">
-          <p class="pub-title"><a href="https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0055.1.xml" target="_blank">A 1D CNN-based emulator of CMAQ: Predicting NO₂ concentration over the most populated urban regions in Texas</a></p>
-          <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Salman A.K., et al. · <em>Artificial Intelligence for the Earth Systems</em></p>
+          <p class="pub-title"><a href="https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0055.1.xml" target="_blank">A 1D CNN-based emulator of CMAQ: Predicting NO&#8322; concentration over the most populated urban regions in Texas</a></p>
+          <p class="pub-meta"><strong>Payami M.</strong>, Choi Y., Salman A.K., et al. &middot; <em>Artificial Intelligence for the Earth Systems</em></p>
         </div>
       </div>
 
       <div class="pub-item">
         <span class="pub-year">2024</span>
         <div class="pub-content">
-          <p class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231023006180" target="_blank">Deep learning based emulator for simulating CMAQ surface NO₂ levels over the CONUS</a></p>
-          <p class="pub-meta">Salman A.K., Choi Y., Park J., <strong>Payami M.</strong>, et al. · <em>Atmospheric Environment</em></p>
+          <p class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231023006180" target="_blank">Deep learning based emulator for simulating CMAQ surface NO&#8322; levels over the CONUS</a></p>
+          <p class="pub-meta">Salman A.K., Choi Y., Park J., <strong>Payami M.</strong>, et al. &middot; <em>Atmospheric Environment</em></p>
         </div>
       </div>
 
@@ -207,7 +190,7 @@
         <div class="edu-list">
           <div class="edu-item">
             <div class="edu-dot"></div>
-            <div><p class="edu-school">Georgia Institute of Technology</p><p class="edu-degree">MS, Computer Science — ML specialization</p><p class="edu-year">2026 (expected)</p></div>
+            <div><p class="edu-school">Georgia Institute of Technology</p><p class="edu-degree">MS, Computer Science &mdash; ML specialization</p><p class="edu-year">2026 (expected)</p></div>
           </div>
           <div class="edu-item">
             <div class="edu-dot"></div>
@@ -229,7 +212,7 @@
         <ul class="awards-list">
           <li><span class="award-year">2024 &amp; 2025</span><span>Outstanding Graduate Researcher in Atmospheric Sciences, University of Houston</span></li>
           <li><span class="award-year">2024</span><span>Natural Science &amp; Mathematics Graduate Student Conference Travel Award, UH</span></li>
-          <li><span class="award-year">2024</span><span>Best Visiting Team, Rice University Datathon — Chevron Challenge</span></li>
+          <li><span class="award-year">2024</span><span>Best Visiting Team, Rice University Datathon &mdash; Chevron Challenge</span></li>
           <li><span class="award-year">2023</span><span>2nd Place, Outstanding Poster, 25th Sheriff Lecture, Houston Geology Society</span></li>
           <li><span class="award-year">2023</span><span>3rd Place, Outstanding Poster, UH Student Research Conference</span></li>
         </ul>
@@ -240,12 +223,12 @@
     <div class="courses-block reveal" style="margin-top: 3rem;">
       <h2 class="section-heading">Courses</h2>
       <div class="skills-row" style="margin-top: 1.2rem;">
-        <a href="https://omscs.gatech.edu/cs-7643-deep-learning" target="_blank" class="skill">CS 7643 · Deep Learning</a>
-        <a href="https://omscs.gatech.edu/cs-7650-natural-language-processing" target="_blank" class="skill">CS 7650 · Natural Language Processing</a>
-        <a href="https://omscs.gatech.edu/cse-6242-data-and-visual-analytics" target="_blank" class="skill">CSE 6242 · Data and Visual Analytics</a>
-        <a href="https://omscs.gatech.edu/cs-7646-machine-learning-trading" target="_blank" class="skill">CS 7646 · Machine Learning for Trading</a>
-        <a href="https://omscs.gatech.edu/cs-7280-network-science" target="_blank" class="skill">CS 7280 · Network Science</a>
-        <a href="https://omscs.gatech.edu/cs-6603-ai-ethics-and-society" target="_blank" class="skill">CS 6603 · AI, Ethics, and Society</a>
+        <a href="https://omscs.gatech.edu/cs-7643-deep-learning" target="_blank" class="skill">CS 7643 &middot; Deep Learning</a>
+        <a href="https://omscs.gatech.edu/cs-7650-natural-language-processing" target="_blank" class="skill">CS 7650 &middot; Natural Language Processing</a>
+        <a href="https://omscs.gatech.edu/cse-6242-data-and-visual-analytics" target="_blank" class="skill">CSE 6242 &middot; Data and Visual Analytics</a>
+        <a href="https://omscs.gatech.edu/cs-7646-machine-learning-trading" target="_blank" class="skill">CS 7646 &middot; Machine Learning for Trading</a>
+        <a href="https://omscs.gatech.edu/cs-7280-network-science" target="_blank" class="skill">CS 7280 &middot; Network Science</a>
+        <a href="https://omscs.gatech.edu/cs-6603-ai-ethics-and-society" target="_blank" class="skill">CS 6603 &middot; AI, Ethics, and Society</a>
       </div>
     </div>
 
@@ -259,7 +242,7 @@
 
       <div class="gallery-item" onclick="openPhoto(this)">
         <img src="photos/graduation.jpg" alt="With my advisor Dr. Yunsoo Choi" />
-        <p class="gallery-caption">With my advisor Dr. Yunsoo Choi · PhD graduation 2025</p>
+        <p class="gallery-caption">With my advisor Dr. Yunsoo Choi &middot; PhD graduation 2025</p>
       </div>
       <div class="gallery-item" onclick="openPhoto(this)">
         <img src="photos/graduation2.jpg" alt="Hooding ceremony" />
@@ -267,16 +250,15 @@
       </div>
       <div class="gallery-item" onclick="openPhoto(this)">
         <img src="photos/graduation3.jpg" alt="Commencement ceremony" />
-        <p class="gallery-caption">Hooding ceremony · University of Houston</p>
+        <p class="gallery-caption">Hooding ceremony &middot; University of Houston</p>
       </div>
-
       <div class="gallery-item" onclick="openPhoto(this)">
         <img src="photos/1.jpeg" alt="Presenting poster at AGU 2024, Washington DC" />
-        <p class="gallery-caption">Presenting my poster · AGU 2024, Washington DC</p>
+        <p class="gallery-caption">Presenting my poster &middot; AGU 2024, Washington DC</p>
       </div>
       <div class="gallery-item" onclick="openPhoto(this)">
         <img src="photos/3.jpeg" alt="AGU 2024, Washington DC" />
-        <p class="gallery-caption">AGU 2024 · Washington DC</p>
+        <p class="gallery-caption">AGU 2024 &middot; Washington DC</p>
       </div>
 
     </div>
